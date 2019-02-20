@@ -5,7 +5,7 @@ from math import exp
 import sys
 print("What kind of Poisson problem is this?")
 typeofpoisson = str(input("Type me for more or equal to, le for less or equal to, m for more, l for less, e for equal: "))
-if typeofpoisson == "me" or typeofpoisson == "le"or typeofpoisson == "m" or typeofpoisson == "l" or typeofpoisson == "e":
+if typeofpoisson == "me" or typeofpoisson == "le" or typeofpoisson == "m" or typeofpoisson == "l" or typeofpoisson == "e":
     print()
 else:
     print("Bad input. Goodbye!")
